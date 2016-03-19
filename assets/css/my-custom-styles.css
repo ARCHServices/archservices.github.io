@@ -1,1 +1,15 @@
 /* your custom styles here */
+.hero-custom {
+    height: 600px;
+}
+
+.donate-box {
+    background-color: #3F9EBF;
+    border-radius: 5px;
+    height: 300px;   
+    opacity: .8;
+}
+
+.navbar-default {
+    height: 80px;
+}
