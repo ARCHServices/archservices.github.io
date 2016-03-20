@@ -1,15 +1,161 @@
 /* your custom styles here */
+@import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+
+
+.my-heading {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 2px;
+}
+
 .hero-custom {
-    height: 600px;
+    height: 530px;
+}
+
+.input-field-container {
+    position: relative;
+}
+
+.preinput {
+    left: 0;
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: black;
+    padding-left: 10px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .donate-box {
-    background-color: #3F9EBF;
     border-radius: 5px;
-    height: 300px;   
-    opacity: .8;
+    height: 230px;   
+    margin-top: 150px;
+    background-color: rgba(63,158,191,0.8);
+    text-align: center;
+    font-size: 25px;
+    font-weight: 300;
+    padding-top: 20px;
+}
+
+.donate-box > .my-heading {
+    font-size: 25px;
+}
+
+.donate-text {
+    text-align: center;
+}
+
+.donate-amount {
+    margin-top: 10px;
+    height: 60px;
+    color: #FD961B;
+    font-size: 24px;
+    font-weight: bold;
+    padding-left: 30px;
+    opacity: 1;
+    width: 100%;
 }
 
 .navbar-default {
     height: 80px;
+}
+
+.btn-submit {
+    background-color: #FD961B;
+    width: 100%;
+    font-family: "Open Sans", sans-serif;
+    color: white;
+    margin-top: 20px;
+    height: 60px;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+.btn-submit:hover {
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.btn-action {
+    background-color: #0E2A35;
+    color: white;
+    height: 50px;
+    border-radius: 4px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    letter-spacing: 2px;
+    padding: 6px 30px;
+}
+
+.action-volunteer {
+    background-color: #5ABFE4;
+}
+
+.action-careers {
+    background-color: #459DBE;
+}
+
+.action-treatment {
+    background-color: #2E83A1;
+}
+
+.action-shelter {
+    background-color: #1E6D8A;
+}
+
+.action {
+    padding-top: 40px;
+    height: 330px;
+    text-align: center;
+}
+
+.boxed-content .boxed-content-title {
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: white;
+    height: 90px;
+}
+
+.boxed-content {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.boxed-content > i {
+    font-size: 6em;
+    color: white;
+    opacity: .4;
+}
+
+section.impact {
+    background-image: url('../img/mountains.png?1420789489');
+    background-size: cover;
+    height: 700px;
+}
+
+section {
+    margin-bottom: 0;
+}
+
+.section-heading {
+    font-family: 'Roboto Slab', serif;
+    letter-spacing: 2px;
+    color: #54707C;
+    font-size: 50px;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.section-heading:after {
+    content: ''
 }
