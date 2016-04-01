@@ -207,6 +207,29 @@ section {
     margin-top: 50px !important;
 }
 
+a {
+    color: #3F9EC6
+}
+
+.month {
+    background: #3F9EC6;
+    color: #fff;
+    display: block;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.day {
+    clear: left;
+    display: block;
+    padding-top: 5px;
+    font-size: 15px;
+    font-family: 'open sans', arial, sans-serif;
+    font-weight: 500;
+     text-align: center;
+}
+
 @media screen and (max-width: 992px) {
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
   .navbar-default .navbar-nav > .active.open > a, .navbar-default .navbar-nav > .active.open > a:hover, .navbar-default .navbar-nav > .active.open > a:focus {
