@@ -13,35 +13,39 @@
 
 .input-field-container {
     position: relative;
+    text-align: center;
 }
 
 .preinput {
-    left: 0;
+    margin-left: -46px;
     position: absolute;
     top: 50%;
     z-index: 1;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
-    color: black;
+    color: #333;
     padding-left: 10px;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 33px;
 }
 
 .donate-box {
     border-radius: 5px;
-    height: 230px;   
+    height: 225px;   
+    margin: 0 auto;
     margin-top: 150px;
     background-color: rgba(63,158,191,0.8);
     text-align: center;
-    font-size: 25px;
+    font-size: 28px;
     font-weight: 300;
-    padding-top: 20px;
+    padding-top: 5px;
+    width: 367px;
 }
 
 .donate-box > .my-heading {
-    font-size: 25px;
+    font-size: 33px;
+    font-weight: 400;
 }
 
 .donate-text {
@@ -49,14 +53,16 @@
 }
 
 .donate-amount {
-    margin-top: 10px;
+    margin: 0 auto;
+    margin-top: 2px;
     height: 60px;
     color: #FD961B;
-    font-size: 24px;
+    font-size: 33px;
     font-weight: bold;
-    padding-left: 30px;
+    padding-left: 153px;
     opacity: 1;
-    width: 100%;
+    text-align: left;
+    width: 90%;
 }
 
 .navbar-default {
@@ -65,7 +71,7 @@
 
 .btn-submit {
     background-color: #FD961B;
-    width: 100%;
+    width: 90%;
     font-family: "Open Sans", sans-serif;
     color: white;
     margin-top: 20px;
@@ -74,8 +80,12 @@
     letter-spacing: 2px;
 }
 
-.btn-submit:hover {
-    color: white;
+.btn-submit:hover, .btn-submit:focus, .btn-submit.focus, .btn-submit:active, .btn-submit.active,
+.btn-submit .open > .dropdown-toggle.btn-submit {
+  color: white;
+}
+.btn-submit:active:focus {
+  color: white;
 }
 
 input[type=number]::-webkit-inner-spin-button, 
@@ -93,6 +103,14 @@ input[type=number]::-webkit-outer-spin-button {
     font-size: 20px;
     letter-spacing: 2px;
     padding: 6px 30px;
+}
+
+.btn-action:hover, .btn-action:focus, .btn-action.focus, .btn-action:active, .btn-action.active,
+.btn-action .open > .dropdown-toggle.btn-action {
+  color: white;
+}
+.btn-action:active:focus {
+  color: white;
 }
 
 .action-volunteer {
@@ -113,14 +131,14 @@ input[type=number]::-webkit-outer-spin-button {
 
 .action {
     padding-top: 40px;
-    height: 330px;
+    height: 305px;
     text-align: center;
 }
 
 .boxed-content .boxed-content-title {
-    font-size: 30px;
+    font-size: 33px;
     font-family: 'Roboto Slab', serif;
-    font-weight: 300;
+    font-weight: 400;
     letter-spacing: 2px;
     color: white;
     height: 90px;
@@ -158,4 +176,37 @@ section {
 
 .section-heading:after {
     content: ''
+}
+
+.navbar-fixed-top .navbar-nav {
+    margin-top: 15px;
+}
+
+
+.navbar-default .navbar-nav > li > a {
+    color: #3F9EC6;
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+  color: #FD961B;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #FD961B;
+}
+
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #FD961B;
+}
+
+@media screen and (max-width: 992px) {
+  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
+  .navbar-default .navbar-nav > .active.open > a, .navbar-default .navbar-nav > .active.open > a:hover, .navbar-default .navbar-nav > .active.open > a:focus {
+    background-color: #3F9EC6;
+    color: #fff;
+  }
 }

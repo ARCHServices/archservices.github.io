@@ -46,23 +46,26 @@
             <!-- MAIN NAVIGATION -->
             <div id="main-nav" class="navbar-collapse collapse navbar-mega-menu">
                <ul class="nav navbar-nav navbar-right">
-                  <li class="dropdown active">
+                  <li>
                      <a href="about.html">ABOUT</a>
                   </li>
-                  <li class="dropdown ">
+                  <li>
                      <a href="programs.html">PROGRAMS</a>
                   </li>
-                  <li class="dropdown ">
-                     <a href="stories.html">STORIES</a>
-                  </li>
-                  <li class="dropdown mega-menu">
+                  <li>
                      <a href="getInvolved.html" >GET INVOLVED</a>
                   </li>
-                  <li class="dropdown mega-menu">
-                     <a href="events.html">NEWS/EVENTS</a>
+                  <li>
+                     <a href="events.html">NEWS & EVENTS</a>
                   </li>
-                  <li class="dropdown mega-menu">
+                  <li>
+                     <a href="stories.html">STORIES</a>
+                  </li>
+                  <li>
                      <a href="contact.html">CONTACT US</a>
+                  </li>
+                  <li>
+                     <a href="donate.html">DONATE</a>
                   </li>
                </ul>
             </div>
@@ -76,19 +79,14 @@
 				<!-- Slide Wrapper -->
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<div class="container">
-                            <div class="row">
-                                <div class="col-md-4 col-md-offset-4 donate-box">
-                                    <div class="my-heading">Donate to ARCH</div>
-                                    <div class="input-field-container">
-                                        <span class="preinput">$</span>
-                                        <input type="number" class="form-control donate-amount" id="contact-name" value="25">
-                                    </div>                                    
-                                    <button class="btn btn-submit">SUBMIT</button>                                       
-                                </div>
-                                
-                            </div>
-						</div>
+                        <div class="donate-box">
+                            <div class="my-heading">Donate to ARCH</div>
+                            <div class="input-field-container">
+                                <span class="preinput">$</span>
+                                <input id="main-donate" type="number" class="form-control donate-amount" max="100" value="25">
+                            </div>                                    
+                            <button class="btn btn-submit">SUBMIT</button>                                       
+                        </div>
 					</div>					
 				</div>
 				<!-- End Slide Wrapper -->
@@ -402,7 +400,7 @@
 	<script src="assets/js/plugins/slick/slick.min.js"></script>
 	<script src="assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
 	<script src="assets/js/repute-scripts.js"></script>
-	
+	<script src="assets/js/index.js"></script>
 </body>
 
 </html>
