@@ -203,6 +203,10 @@ section {
   color: #FD961B;
 }
 
+.page-content {
+    margin-top: 50px !important;
+}
+
 @media screen and (max-width: 992px) {
   .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
   .navbar-default .navbar-nav > .active.open > a, .navbar-default .navbar-nav > .active.open > a:hover, .navbar-default .navbar-nav > .active.open > a:focus {
