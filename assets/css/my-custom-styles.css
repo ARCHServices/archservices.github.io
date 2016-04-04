@@ -236,4 +236,7 @@ a {
     background-color: #3F9EC6;
     color: #aaa;
   }
+  ul.navbar-nav {
+      background-color: #EBEBEB;
+  }
 }
