@@ -1,7 +1,6 @@
 /* your custom styles here */
+
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
-
-
 /*.my-heading {
     font-family: 'Roboto Slab', serif;
     letter-spacing: 2px;
@@ -32,10 +31,10 @@
 
 .donate-box {
     border-radius: 5px;
-    height: 225px;   
+    height: 225px;
     margin: 0 auto;
     margin-top: 150px;
-    background-color: rgba(63,158,191,0.8);
+    background-color: rgba(63, 158, 191, 0.8);
     text-align: center;
     font-size: 28px;
     font-weight: 300;
@@ -81,18 +80,23 @@
     padding-top: 16px;
 }
 
-.btn-submit:hover, .btn-submit:focus, .btn-submit.focus, .btn-submit:active, .btn-submit.active,
+.btn-submit:hover,
+.btn-submit:focus,
+.btn-submit.focus,
+.btn-submit:active,
+.btn-submit.active,
 .btn-submit .open > .dropdown-toggle.btn-submit {
-  color: white;
-}
-.btn-submit:active:focus {
-  color: white;
+    color: white;
 }
 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
+.btn-submit:active:focus {
+    color: white;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
 }
 
 .btn-action {
@@ -106,12 +110,17 @@ input[type=number]::-webkit-outer-spin-button {
     padding: 6px 30px;
 }
 
-.btn-action:hover, .btn-action:focus, .btn-action.focus, .btn-action:active, .btn-action.active,
+.btn-action:hover,
+.btn-action:focus,
+.btn-action.focus,
+.btn-action:active,
+.btn-action.active,
 .btn-action .open > .dropdown-toggle.btn-action {
-  color: white;
+    color: white;
 }
+
 .btn-action:active:focus {
-  color: white;
+    color: white;
 }
 
 .action-volunteer {
@@ -168,6 +177,7 @@ section {
 
 .section-heading {
     /*font-family: 'Roboto Slab', serif;*/
+    
     letter-spacing: 2px;
     color: #264C5A;
     font-size: 50px;
@@ -187,20 +197,21 @@ section {
     color: #3F9EC6;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-  color: #FD961B;
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #FD961B;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-  color: #FD961B;
+    color: #FD961B;
 }
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-  color: #FD961B;
+    color: #FD961B;
 }
 
 .page-content {
@@ -235,22 +246,31 @@ a {
     color: white;
 }
 
+.fa-envelope {
+    margin-right: 10px;
+}
+
 @media screen and (max-width: 992px) {
-  .navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus,
-  .navbar-default .navbar-nav > .active.open > a, .navbar-default .navbar-nav > .active.open > a:hover, .navbar-default .navbar-nav > .active.open > a:focus {
-    background-color: #3F9EC6;
-    color: #aaa;
-  }
-  ul.navbar-nav {
-      background-color: #EBEBEB;
-  }
+    .navbar-default .navbar-nav > .active > a,
+    .navbar-default .navbar-nav > .active > a:hover,
+    .navbar-default .navbar-nav > .active > a:focus,
+    .navbar-default .navbar-nav > .active.open > a,
+    .navbar-default .navbar-nav > .active.open > a:hover,
+    .navbar-default .navbar-nav > .active.open > a:focus {
+        background-color: #3F9EC6;
+        color: #aaa;
+    }
+    ul.navbar-nav {
+        background-color: #EBEBEB;
+    }
 }
 
 body {
-  padding-top: 80px;
+    padding-top: 80px;
 }
+
 @media (max-width: 979px) {
-  body {
-    padding-top: 0px;
-  }
+    body {
+        padding-top: 0px;
+    }
 }
