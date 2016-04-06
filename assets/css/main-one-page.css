@@ -94,7 +94,7 @@ hr {
 .section-heading:after {
    display: block;
    content: '......';
-   color: #3F9EC6;
+   color: #264C5A;
    font-weight: 300;
 }
 
@@ -4474,7 +4474,7 @@ div.mc-image {
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary .open > .dropdown-toggle.btn-primary {
-   background-color: #3c6699;
+   background-color: #264C5A;
    border-color: #355987;
 }
 

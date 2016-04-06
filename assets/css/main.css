@@ -4986,7 +4986,7 @@ div.mc-image {
 .btn-primary:active,
 .btn-primary.active,
 .btn-primary .open > .dropdown-toggle.btn-primary {
-   background-color: #3c6699;
+   background-color: #264C5A;
    border-color: #355987;
 }
 
@@ -5648,7 +5648,7 @@ div[class*="col-"] > .form-group {
    position: absolute;
    top: -12px;
    font-size: 3em;
-   color: #406da4;
+   color: #264C5A;
    z-index: 1;
 }
 
