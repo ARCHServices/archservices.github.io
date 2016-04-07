@@ -250,6 +250,10 @@ a {
     margin-right: 10px;
 }
 
+.stories {
+    border-right: 1px solid #EBEBEB;
+}
+
 @media screen and (max-width: 992px) {
     .navbar-default .navbar-nav > .active > a,
     .navbar-default .navbar-nav > .active > a:hover,
