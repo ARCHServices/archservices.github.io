@@ -1,4 +1,4 @@
-@charset "UTF-8";
+﻿@charset "UTF-8";
 /*
 *	############################################################################
 *	
@@ -7907,7 +7907,6 @@ ul.nav-categories > li > a:hover {
    display: inline-block;
    vertical-align: middle;
    *vertical-align: auto;
-   *zoom: 1;
    *display: inline;
    padding: 0 5px;
    line-height: 1.6;
