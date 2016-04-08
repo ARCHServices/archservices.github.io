@@ -1,6 +1,7 @@
 /* your custom styles here */
 
 @import url(https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,900);
 /*.my-heading {
     font-family: 'Roboto Slab', serif;
     letter-spacing: 2px;
@@ -198,19 +199,19 @@ section {
 
     .navbar-default .navbar-nav > li > a:hover,
     .navbar-default .navbar-nav > li > a:focus {
-        color: #FD961B;
+        color: #E9473A;
     }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
 .navbar-default .navbar-nav > .active > a:focus {
-    color: #FD961B;
+    color: #E9473A;
 }
 
 .navbar-default .navbar-nav > .open > a,
 .navbar-default .navbar-nav > .open > a:hover,
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #FD961B;
+    color: #E9473A;
 }
 
 .page-content {
@@ -281,12 +282,109 @@ a {
     }
 }
 
+@media (max-width: 979px) {
+    body {
+        padding-top: 80px !important;
+    }
+    
+    .hero-unit-fullscreen {
+        background-image: url('../img/roanoke-valley-bg.jpg?1444716816');
+    }
+}
+
+
 body {
     padding-top: 80px;
+}
+
+.main-text h2 {
+    text-align: center;
+    color: #3E9FC0;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 70px;
+    font-family: 'Source Sans Pro', sans-serif;
+    margin-top: 20px;
+}
+
+img.main-logo {
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+img.main-sm-logo {
+    margin-top: 20px;
+    width: 60%;
+}
+
+.trying {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+img.sub-logo {
+    width: 100%;
+    margin-top: 20px;
 }
 
 @media (max-width: 979px) {
     body {
         padding-top: 0px;
     }
+}
+
+h2.what-we-do {
+    color: #E9473A;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+}
+
+p.what-we-do {
+    color: #333;
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    margin-bottom: 40px;
+    font-weight: 300;
+}
+
+.about-content {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.about-content:before {
+    content: "";
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+    height: 1px;
+    width: 50%;
+    border-bottom: 3px solid #E9473A;
+}
+
+.about-heading {
+    margin-bottom: -5px;
+}
+
+.my-heading {
+    color: #E9473A;
+    font-size: 25px;
+    font-family: "Open Sans", sans-serif;
+}
+
+.my-container {
+    position: relative;
+    margin-top: 20px;
+}
+
+.my-container:before {
+    content: "";
+    position: absolute;
+    left: 25%;
+    bottom: 0;
+    height: 1px;
+    width: 50%;
+    border-bottom: 3px solid #E9473A;
 }

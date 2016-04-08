@@ -4650,9 +4650,9 @@ html.fullscreen .wrapper {
    font-size: 2em;
    text-align: center;
    color: #fff;
-   background-image: url('../img/fullscreen-bg.jpg?1444716816');
+   background-image: url('../img/logo/trying-main2.jpg?1444716816');
    background-repeat: no-repeat;
-   background-position: center;
+   background-size: cover;
 }
 
 .hero-unit-fullscreen .overlay {
@@ -4711,7 +4711,7 @@ html.fullscreen .wrapper {
 @media screen and (min-width: 1200px) {
    .hero-unit-fullscreen .down-arrow {
       display: block;
-      bottom: 1em;
+      bottom: 3px;
    }
 }
 
@@ -4730,7 +4730,7 @@ html.fullscreen .wrapper {
    height: 60px;
    line-height: 60px;
    color: #fff;
-   border: 2px solid #fff;
+   /*border: 2px solid #fff;*/
 }
 
 .hero-unit-fullscreen .down-arrow a:hover,

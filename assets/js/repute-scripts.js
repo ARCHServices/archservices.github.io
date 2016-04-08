@@ -90,7 +90,10 @@ $(document).ready( function() {
 	if($('.scroll-down').length > 0) {
 		$('.scroll-down').localScroll({
 			duration: 1000,
-			easing: 'easeInOutExpo'
+			easing: 'easeInOutExpo',
+            offset: {
+                top:-70
+            }
 		});
 	}
 
