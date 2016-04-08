@@ -388,3 +388,7 @@ p.what-we-do {
     width: 50%;
     border-bottom: 3px solid #E9473A;
 }
+
+.overlay.my-overlay {
+    background-color: default !important;
+}
