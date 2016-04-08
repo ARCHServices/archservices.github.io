@@ -257,6 +257,9 @@ a {
     font-size: 20px;
 }
 
+#get-involved .boxed-content > i {
+    opacity: 1;
+}
 
 @media screen and (max-width: 992px) {
     .navbar-default .navbar-nav > .active > a,
