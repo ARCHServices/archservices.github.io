@@ -283,8 +283,8 @@ a {
 }
 
 @media (max-width: 979px) {
-    body {
-        padding-top: 80px !important;
+    .main-text {
+        margin-top: 80px !important;
     }
     
     .hero-unit-fullscreen {
