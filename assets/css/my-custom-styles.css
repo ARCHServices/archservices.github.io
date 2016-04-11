@@ -313,6 +313,15 @@ body {
     margin-top: 20px;
 }
 
+.sub-text h2 {
+    text-align: center;
+    color: white;
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 55px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 img.main-logo {
     text-align: center;
     margin-top: 30px;
@@ -395,6 +404,59 @@ p.what-we-do {
         border-bottom: 3px solid #E9473A;
     }
 
-.overlay.my-overlay {
-    background-color: default !important;
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.navbar-nav > li:after {
+    display: inline;
+    position: absolute;
+    content: "";
+    top: 33%;
+    left: 100%;
+    height: 33%;
+    border-right: 1px solid #254C5A;
+}
+
+.navbar-nav > li:last-child:after {
+    display: none;
+}
+
+.navbar-btn-donate {
+    background-color: #3E9FC0;
+    color: white;
+    margin-top: 18px;
+    padding: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    border-style: none;
+}
+
+.btn-donate {
+    background-color: #3E9FC0;
+    color: white;
+    margin-top: 18px;
+    padding: 13px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 4px;
+    border-style: none;
+    font-size: 25px;
+}
+
+.btn-donate:hover,
+.btn-donate:focus,
+.navbar-btn-donate:hover,
+.navbar-btn-donate:focus {
+    color: white;
+    background-color: #E9473A;
 }
