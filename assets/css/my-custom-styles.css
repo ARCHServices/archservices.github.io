@@ -460,3 +460,12 @@ p.what-we-do {
     color: white;
     background-color: #E9473A;
 }
+
+.list-client-logo li {
+    max-width: 90px;
+    padding: 10px;
+}
+
+a h4 {
+    color: #3F9EC6;
+}
