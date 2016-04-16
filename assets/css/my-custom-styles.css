@@ -296,6 +296,10 @@ a {
     .contacts h3 {
         font-size: 16px;
     }
+
+    .flex-item {
+        max-width: 122px;
+    }
 }
 
 
